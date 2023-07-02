@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+    
+<link rel="stylesheet " href="style.css">
+
+    <title>WMS zoom to layer | Web-GIS with geoserver and leaflet</title> 
+  </head>
+  <body>
+    <h1>Prikaz WMS-a koristeći Leaflet tehnologiju</h1>
+    <div id="map"></div>
+    <div class="info">
+      <b> GetFeatureInfo & geometriju iz WMS-a koristeći Leaflet</b>
+      <ul>
+        
+        <li><b>Input: </b>Unos: Kliknite bilo gdje na karti.</li>
+        <li><b>Output: </b>Izlaz: FeatureInfo u skočnom prozoru i ističe njegovu geometriju na karti.</li>
+        
+      </ul>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="betterWMS.js"></script>
+
+    <script src="main.js"></script>
+  
+  </body>
+</html>
+
