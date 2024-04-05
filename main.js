@@ -18,7 +18,8 @@
 	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
 });  
   var Ortofoto = L.tileLayer('https://geoportal.dgu.hr/services/inspire/orthophoto_2021/wms?service=WMS&request=GetCapabilities'
-});  
+});    
+Ortofoto.addTo(map);
 
 var wms1=L.tileLayer.betterWms(url, {
   layers: 'zasticeni_fosili',
