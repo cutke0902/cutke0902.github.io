@@ -4,7 +4,7 @@
   var url1 = 'https://services.bioportal.hr/dzzpnpis/ows?SERVICE=WMS&';
   var url2 = 'http://services.bioportal.hr:80/dzzpnpis/ows?SERVICE=WMS& ';
   var url3 = 'http://services.bioportal.hr:80/dzzpnpis/ows?SERVICE=WMS& ';
-  var url4 = ' https://services.bioportal.hr/dzzpnpis/ows?SERVICE=WMS& ';
+  var url4 = 'https://services.bioportal.hr/dzzpnpis/ows?SERVICE=WMS& ';
   
   
   var osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
