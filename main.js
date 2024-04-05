@@ -18,7 +18,6 @@
 	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
 });  
 
-
 var wms1=L.tileLayer.betterWms(url, {
   layers: 'zasticeni_fosili',
   transparent: true,
@@ -50,8 +49,7 @@ var wms1=L.tileLayer.betterWms(url, {
       }).addTo(map);
 var baseMaps = {
   "OpenStreetMap": osm,
-  "Satelit": Esri_WorldImagery
- 
+  "Satelit": Esri_WorldImagery,
 };
 var overlayMaps = {
 
