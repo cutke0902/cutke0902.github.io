@@ -53,7 +53,7 @@ var wms1=L.tileLayer.betterWms(url, {
 var baseMaps = {
   "OpenStreetMap": osm,
   "Satelit": Esri_WorldImagery,
-  
+  "Ortofoto": Ortofoto,
 };
 var overlayMaps = {
 
